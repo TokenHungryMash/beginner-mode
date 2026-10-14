@@ -1,0 +1,4 @@
+interface:
+  display_name: "新手模式"
+  short_description: "新项目先查 GitHub，解释积累陌生词，提醒保存版本并说明网页发布方式"
+  default_prompt: "用 $beginner-mode 帮我完成任务：新项目先查 GitHub，陌生词随用随解释并积累，关键节点提醒保存版本，网页交付时说明适合的使用与发布方式，保持回答简洁。"
