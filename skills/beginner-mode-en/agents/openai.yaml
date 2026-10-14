@@ -1,4 +1,0 @@
-interface:
-  display_name: "Beginner Mode"
-  short_description: "Explain terms, find existing projects, and guide saving and publishing"
-  default_prompt: "Use $beginner-mode-en to help me complete my task: research existing projects first, explain and recap unfamiliar terms, remind me to save versions, and explain how to use or publish webpages. Keep it concise."

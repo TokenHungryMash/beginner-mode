@@ -2,7 +2,7 @@
 
 **不用先补完所有教程，也能边做边懂。**
 
-[English](README.en.md) · [中文技能](skills/beginner-mode/SKILL.md) · [English skill](skills/beginner-mode-en/SKILL.md) · [下载安装包](https://github.com/TokenHungryMash/beginner-mode/releases/latest)
+[English](README.en.md) · [技能规则](SKILL.md) · [下载安装包](https://github.com/TokenHungryMash/beginner-mode/releases/latest)
 
 你照常告诉 AI 想做什么，让它在关键时候多解释一句、提醒一下。
 
@@ -13,22 +13,17 @@
 | 💾 提醒保存版本 | 功能验证通过、大改之前或结束工作时，按实际状态提醒保存，便于恢复已记录的成果。 |
 | 🌐 网页使用与分享 | 根据实际文件说明怎么打开、怎么分享，需要网址时给出合适的发布方式。 |
 
-## 安装：选择一种语言
+## 安装
 
-两个版本功能一致，英文版包含完整英文规则、参考文档和界面说明，不只是翻译首页。
+**一个 Skill、一套安装文件，中英文介绍分别提供。** 技能规则和参考文档沿用中文原版，无需安装两个语言版本。
 
-| 版本 | 安装目录 | 调用 |
-|---|---|---|
-| 中文 | `skills/beginner-mode` | `$beginner-mode` |
-| English | `skills/beginner-mode-en` | `$beginner-mode-en` |
-
-从 [Releases](https://github.com/TokenHungryMash/beginner-mode/releases/latest) 下载所需语言的 ZIP，解压后把完整技能文件夹放到客户端实际读取的技能目录。**一般只安装一种语言版本。** 请保留 `SKILL.md`、`agents` 和 `references` 的目录关系，不要只复制首页。
+从 [Releases](https://github.com/TokenHungryMash/beginner-mode/releases/latest) 下载 `beginner-mode-1.0.0.zip`，解压后把完整 `beginner-mode` 文件夹放到客户端实际读取的技能目录。保留 `SKILL.md`、`agents` 和 `references` 的目录关系。也可以把整个仓库克隆到技能目录下的 `beginner-mode` 文件夹。
 
 Codex 本地技能目录可使用 `~/.codex/skills/`；其他客户端按自身支持的技能安装入口操作。若已安装同名技能，先保留旧版，再替换。客户端可能需要重新加载或新建会话后才能发现新技能；安装、启用、当前任务读到规则是不同状态。
 
 也可以把仓库链接发给能安装技能的 AI：
 
-> 请从 https://github.com/TokenHungryMash/beginner-mode 安装中文版本 skills/beginner-mode，保留完整目录。确认安装并读取规则后，在当前对话开启新手模式。
+> 请从 https://github.com/TokenHungryMash/beginner-mode 安装仓库根目录中的 beginner-mode 技能，保留完整目录。确认安装并读取规则后，在当前对话开启新手模式。
 
 ## 使用
 
@@ -52,6 +47,6 @@ Codex 本地技能目录可使用 `~/.codex/skills/`；其他客户端按自身�
 
 这是给 AI 的工作指引，不是独立应用，不提供额外账号、工具或权限。检索、文件修改、Git 和部署取决于宿主能力与授权。提醒保存不等于自动提交；介绍发布方式不等于自动上传。仅复制文件不会主动发消息；安装后开启需要当前 AI 实际读取并执行规则。不保证跨会话记忆或任意客户端自动加载。
 
-版本 **1.0.0**。本次发布核对了文件结构、内部链接、语言内容与安装包一致性；不代表所有客户端都已完成实际安装和端到端验证。详细行为见各语言版本的 `SKILL.md`。
+版本 **1.0.0**。本次发布核对了文件结构、内部链接、语言内容与安装包一致性；不代表所有客户端都已完成实际安装和端到端验证。详细行为见`SKILL.md`。
 
 作者：土豆泥 · [TokenHungryMash](https://github.com/TokenHungryMash)
